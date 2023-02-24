@@ -1,0 +1,120 @@
+<!DOCTYPE   html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale-1.0">
+
+<link rel="stylesheet" href="../css/style.css">
+<link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+ <link rel="icon" href="images/visoca.png">
+<script src="../java/main.js"></script>
+
+<title>Primăria satului Visoca</title>
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="../images/visoca.png">
+        <navbar>
+           <a href="../index.html">Acasă</a>
+           <a href="prezentare.html">Pezentarea generală</a>
+           <a href="transparenta.html">Transparența </a>
+           <a href="consiliul.html">Consiliul local</a>
+           <a href="institutii.html">Instituții</a>
+           <a href="contacte.html">Contacte</a>
+           <a href="galerie.html">Galerie foto</a>
+         </navbar>
+         <i id="hamburger" onclick="mobileMenu()" class="fa-solid fa-bars"></i>
+        
+       </header>
+
+       
+<main>
+  
+  <section>
+     <br/> <br/><br/> <br/> <br/><br/>
+     <h2 class="centered1">Contacte</h2>
+     <div class="row">
+        <div class="col-50">
+          <div class="contacte">
+            <h3 class="centered1">Date de contact</h3>
+            <b>Primăria</b>
+            <a href="mailto:primariavisoca@gmail.com">primariavisoca@gmail.com</a>
+            <br/> <br/>
+
+            <b>Primarul</b>
+            <a href="mailto:grigoreplesca@gmail.com"> grigoreplesca@gmail.com</a>
+            <br/> <br/>
+
+            <b>Secretarul</b>
+            <a href="mailto:eugeniapinzari@gmail.com">eugeniapinzari@gmail.com</a>
+            <br/> <br/>
+          </div>
+          
+        </div>
+      
+     <div class="col-50">
+      <form class="cform">
+        <h3 class="centered1">Contactează primăria</h3>
+
+        <input type="text" placeholder="Nume Prenume">
+        <input type="text" placeholder="Subiectul">
+        <textarea row="5" placeholder="Mesajul"></textarea>
+        <input type="submit" value="Transmite">
+
+      </form>
+     </div>
+    </div>
+    <br/>
+    <iframe class="harta" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18378.124451906257!2d27.902355055968165!3d48.24362142083216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cccbba05246515%3A0x8d06cfbf2fbba863!2z0JLQuNGB0L7QutCwLCDQnNC-0LvQtNCw0LLQuNGP!5e1!3m2!1sru!2s!4v1659875017761!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+    </iframe>
+
+    
+    <form autocomplete="off">
+        <fieldset>
+            <legend><h3>Programare</h3>  </legend>
+            <label for="participant">Nume prenume*</label><br/>
+            <input placeholder="Bicu Ion" required id="participant" type="text"><br/>
+            
+            <label>Alege ziua dorită</label>
+          <br/>
+          <select id="curs" multiple>
+            <option>Luni</option>
+            <option>Marți</option>
+            <option selected>Miercuri</option>
+            <option disabled>Joi</option> 
+          </select>
+	<br/>
+ 
+        <label for="data">Alege data</label><br/>
+       <input   id="data" type="date">
+               
+        <br/>
+        
+        <label for="descriere">O scurta caracterizare a problemei</label><br/>
+        <textarea id="descriere" rows="5" cols="20"></textarea>
+        <br/>
+        <label for="reguli">Sunt de acord cu regulile*</label>
+        <input required id="reguli" type="checkbox">
+       <br/>
+        <input type="submit" value="Transmite">
+
+    </fieldset>
+    </form>
+
+
+</section>
+
+</main>
+ 
+<footer>
+  <span>
+    2023, Primăria satului Visoca. Toate drepturile rezervate.
+  </br>Email: primariavisoca@gmail.com. Tel: 0 230 52 236
+    
+  </span>
+</footer>
+
+</body>
+</html>
